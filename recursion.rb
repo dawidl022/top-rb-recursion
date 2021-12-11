@@ -1,3 +1,6 @@
+# Questions found at:
+# https://www.codequizzes.com/computer-science/beginner/recursion
+
 def factorial(n)
   return 1 if n <= 1
   n * factorial(n - 1)
