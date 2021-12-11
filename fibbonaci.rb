@@ -15,11 +15,6 @@ def fibs(n)
   result
 end
 
-p fibs 0
-p fibs 1
-p fibs 2
-p fibs 20
-
 def fibs_rec(n, result = [])
   return if n < 0
 
@@ -43,9 +38,3 @@ def fibs_rec(n, result = [])
 
   result
 end
-
-
-p fibs_rec 0
-p fibs_rec 1
-p fibs_rec 2
-p fibs_rec 20

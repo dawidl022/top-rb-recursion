@@ -38,8 +38,6 @@ def to_roman(integer)
   end
 end
 
-puts to_roman(99)
-
 def to_integer(numeral)
   return ROMAN_TO_INTEGER.fetch(numeral, 0) if numeral.length <= 1
 
@@ -54,6 +52,3 @@ def to_integer(numeral)
 
   result + to_integer(numeral[offset..])
 end
-
-
-puts to_integer("XCIX")

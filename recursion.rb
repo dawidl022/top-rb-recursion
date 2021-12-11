@@ -37,14 +37,3 @@ def flatten(array)
     result + flatten(item)
   end
 end
-
-puts factorial(4)
-puts palindrome("amanaplanacanalpanama")
-
-bottles_on_wall(5)
-
-puts fib(100);
-
-p flatten([[1, 2], [3, 4]])
-p flatten([[1, [8, 9]], [3, 4]])
-p flatten([[[1], [2]], [[3], [4]]])
